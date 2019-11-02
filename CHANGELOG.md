@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.8.0 (UNRELEASED)
+
+- Added `validation_rules` option to query executors as well as ASGI and WSGI apps and Django view that allow developers to include custom query validation logic in their APIs.
+- Added `validation.cost_validator` query validator that allows developers to limit maximum allowed query cost/complexity.
+
+
 ## 0.7.0 (2019-10-03)
 
 - Added support for custom schema directives.
